@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px) {
+  .info {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    background-color: #cad2f9;
+  }
+  .fields {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .field1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+  }
+  .field2 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+  }
+  .field3 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .field4 {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btns {
+    padding-top: 10px;
+  }
+  .btns .btn {
+    margin: 5px;
+  }
+}
+@media only screen and (min-width: 1245px) {
+  .info {
+    display: flex;
+    height: 200px;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    background-color: #cad2f9;
+  }
+  .fields {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 13;
+    align-items: space-evenly;
+  }
+  .field1 {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    justify-content: space-evenly;
+    color: gray;
+    font-size: 13;
+  }
+
+  .field2 {
+    height: 100%;
+    flex-grow: 7;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    color: gray;
+  }
+  .field1 span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  .field2 span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  .field3 span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  .field4 span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+  }
+  .field3 {
+    color: gray;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .field4 {
+    color: gray;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+}
+
+.info {
+  background-color: #cad2f9;
+}
